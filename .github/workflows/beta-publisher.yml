@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-          max-old-space-size: 4096
       - run: npm i
       - run: npm i -g vsce
       - run: npm run setup
